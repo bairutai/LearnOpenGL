@@ -90,9 +90,9 @@ ourTextture是纹理id，这个同样也是在电脑内存中把图像读入，�
 
 缩放：
 
-![image-20220106160658923](.\image\scale.png)
+![image-20220106160658923](https://github.com/bairutai/LearnOpenGL/blob/main/image/scale.png)
 
-位移：![image-20220106161732782](.\image\trans.png)
+位移：![image-20220106161732782](https://github.com/bairutai/LearnOpenGL/blob/main/image/trans.png)
 
 矩阵之间进行相乘可以将变换进行组合，glsl中有mat2,mat3,mat4类型来分别对应2 * 2,3 * 3,4 * 4矩阵
 
@@ -114,7 +114,7 @@ ourTextture是纹理id，这个同样也是在电脑内存中把图像读入，�
 - 摄像机方向,摄像机位置-原点位置
 - 求摄像机坐标系的x轴，借助上量(0,1,0) ，进行叉乘可以与求出z轴和上量互相正交的x轴;
 - 接着再用x轴和摄像机方向向量进行叉乘求出y轴
-- ![image-20220106200939438](.\image\lookat.png)
+- ![image-20220106200939438](https://github.com/bairutai/LearnOpenGL/blob/main/image/lookat.png)
 
 以上是原理，OSG中有封装好的函数帮我们去做这件事,lookat函数
 
@@ -164,7 +164,7 @@ ourTextture是纹理id，这个同样也是在电脑内存中把图像读入，�
 
 14.模板测试
 
-![image-20220106203511917](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20220106203511917.png)
+![image-20220106203511917](https://github.com/bairutai/LearnOpenGL/blob/main/image/stencilTest.png)
 
 15.深度测试
 
