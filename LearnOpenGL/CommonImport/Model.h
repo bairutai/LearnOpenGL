@@ -49,6 +49,17 @@ public:
 		m_pModelImpl = nullptr;
 	}
 
+	vector<Texture> getTextures() const
+	{
+		return m_pModelImpl->textures_loaded;
+	}
+
+	vector<Mesh> getMeshes() const
+	{
+		return m_pModelImpl->meshes;
+	}
+
+
 	// draws the model, and thus all its meshes
 	void Draw(Shader &shader)
 	{
